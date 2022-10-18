@@ -1,0 +1,72 @@
+.bgimg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("https://empireweekly.com/wp-content/uploads/2022/02/fall-movies-index-1628968089.jpeg");
+    background-repeat: repeat;
+    background-size: 800px;
+    z-index: -1;
+}
+.textt{
+    color: white;
+    padding-right: 450px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 35px;
+}
+nav {
+    width: 100%;
+    height: 50px;
+    background: rgba(248, 54, 54, 0.9);
+    border-top: 1px solid rgba(255,255,255, .2);
+    border-bottom: 1px solid rgba(255,255,255, .2);
+    position: sticky;
+    top: 0;
+    z-index: 8;
+  }
+  
+  nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0 100px;
+    justify-content: flex-end;
+  }
+  
+  nav ul li {
+    list-style: none;
+  }
+  
+  nav ul li a {
+    display: block;
+    color: #fff;
+    padding: 0 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 50px; /**  Rarely used! **/
+  }
+  
+  nav ul li a:hover {
+    color: rgb(0, 0, 0);
+    
+  } 
+  .active1{
+    color: black !important;
+  }
+  .data-table{
+    width: 1000px;
+    margin-left: 120px;
+    background-color: rgba(0, 0, 0, 0.338);
+  }
+  .btn-edit{
+    width: 80px;
+  }
+
+  h2{
+    color: rgb(255, 10, 10);
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 40px;
+  }
